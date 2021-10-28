@@ -1,0 +1,135 @@
+.bcontainer {
+    position: relative;
+    margin: 10vh auto;
+    background-image: linear-gradient(0deg, #138808 33%, #ffffff 33%, #ffffff 66%, #FF9933 66% );
+    width: 1000px;
+    height: 600px;
+  }
+.base {
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    background-color: #9fd0e1;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+  }
+  
+  .top-front {
+    width: 360px;
+    height: 50px;
+    background-color: #9fd0e1;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .top-top2 {
+    position: absolute;
+    border-bottom: 35px solid #c5f7f6;
+    border-left: 13px solid transparent;
+    border-right: 13px solid transparent;
+    height: 0;
+    width: 334px;
+    bottom: 250px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+  }
+  
+  .top-top3 {
+    position: absolute;
+    border-bottom: 35px solid #c5f7f6;
+    border-left: 13px solid transparent;
+    border-right: 13px solid transparent;
+    height: 0;
+    width: 308px;
+    bottom: 285px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .shadow {
+    position: absolute;
+    top: 50px;
+    height: 10px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.45);
+  }
+  
+  .slot2 {
+    height: 5px;
+    width: 150px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+    left: 50%;
+    top: 30px;
+    transform: translateX(-50%);
+    border-radius: 6px 6px 0 0;
+    z-index: 6;
+  }
+  
+  .slot3 {
+    height: 5px;
+    width: 150px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+    left: 50%;
+    top: 0px;
+    transform: translateX(-50%);
+    border-radius: 0 0 6px 6px;
+    z-index: 8;
+  }
+  
+  .text {
+    text-transform: uppercase;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    line-height: 300px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4rem;
+    color: #6f9dce;
+  }
+  
+  .ballot:before {
+    justify-content: center; 
+    align-items: center; 
+    position: absolute;
+    width: 140px;
+    height: 200px;
+    background-color: white;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 10vw;
+    color: #3a575e;
+    content: "\2713";
+    top: 40px;
+    border-radius: 3px;
+    animation-name: vote;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  @keyframes vote {
+    0% {
+      top: 40px;
+    }
+    100% {
+      top: 200px;
+    }
+  }
+  .fa-check-square {
+    height: 20px;
+    width: auto;
+    margin-top: 4px;
+    margin-left: 6px;
+  }
+  

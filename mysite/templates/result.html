@@ -1,0 +1,227 @@
+{% extends 'base.html' %}
+{% load static %}
+{%block content%}
+        <div class="section-title" style="padding-top: 20px;">
+                <h1>The current results are</h1>
+            </div>
+            <div class="row">
+               
+             <div class="col-lg-4">	
+                        
+               <div class="text-center card-box">
+                <div class="clearfix"></div>
+                <div class="member-card">
+                 <div class="thumb-xl member-thumb m-b-10 center-block">
+                  <img src="{% static 'images/bjp.jpg' %}" class="img-circle img-thumbnail" alt="profile-image">
+                  <i class="mdi mdi-star-circle member-star text-success" title="verified user"></i>
+                 </div>
+            
+                 <div class="">
+                  <h4 class="m-b-5">Narendra Modi</h4>
+                  <p class="text-danger"><i class="fa fa-thumbs-o-up"></i> {{ BJP }} Votes</p>
+                  <p class="text-mint"><span class="text-mint">Bhartiye Janta Party</span></p>  
+                  <p> <span><span class="text-muted">Alliance: </span><span class="text-mint">NDA</span> </span></p>
+                 </div>
+            
+                  <p><span style="font-family: &quot;Abhaya Libre&quot;, serif; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; text-align: center;">I too am a watchman</span><br></p>
+                </div>
+               </div>
+             </div>
+             <div class="col-lg-4">	
+                              
+                     <div class="text-center card-box">
+                      <div class="clearfix"></div>
+                      <div class="member-card">
+                       <div class="thumb-xl member-thumb m-b-10 center-block">
+                        <img src="{% static 'images/inc.jpg' %}" class="img-circle img-thumbnail" alt="profile-image">
+                        <i class="mdi mdi-star-circle member-star text-success" title="verified user"></i>
+                       </div>
+                  
+                       <div class="">
+                        <h4 class="m-b-5">Rahul Gandhi</h4>
+                        <p class="text-danger"><i class="fa fa-thumbs-o-up"></i> {{ CONGRESS }} Votes</p>
+                        <p class="text-mint"><span class="text-mint">Indian National Congress</span></p>  
+                        <p> <span><span class="text-muted">Alliance: </span><span class="text-mint">UPA</span> </span></p>
+                       </div>
+                  
+                        <p><span style="font-family: &quot;Abhaya Libre&quot;, serif; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; text-align: center;">Ab Hoga Nyay</span><br></p>
+                      </div>
+                     </div>
+                   </div>
+                   <div class="col-lg-4">	
+                              
+                        <div class="text-center card-box">
+                         <div class="clearfix"></div>
+                         <div class="member-card">
+                          <div class="thumb-xl member-thumb m-b-10 center-block">
+                           <img src="{% static 'images/dmk.png' %}" class="img-circle img-thumbnail" alt="profile-image">
+                           <i class="mdi mdi-star-circle member-star text-success" title="verified user"></i>
+                          </div>
+                     
+                          <div class="">
+                           <h4 class="m-b-5">M. K. Stalin</h4>
+                           <p class="text-danger"><i class="fa fa-thumbs-o-up"></i> {{ DMK }} Votes</p>
+                           <p class="text-mint"><span class="text-mint">Dravida Munnetra Kazhagam</span></p>  
+                           <p> <span><span class="text-muted">Alliance: </span><span class="text-mint">UPA</span> </span></p>
+                          </div>
+                     
+                           <p><span style="font-family: &quot;Abhaya Libre&quot;, serif; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; text-align: center;">Let’s crush the power pile</span><br></p>
+                         </div>
+                        </div>
+                      </div>
+            </div>
+            <div class="row">
+               
+                    <div class="col-lg-4">	
+                               
+                      <div class="text-center card-box">
+                       <div class="clearfix"></div>
+                       <div class="member-card">
+                        <div class="thumb-xl member-thumb m-b-10 center-block">
+                         <img src="{% static 'images/aitc.jpeg' %}" class="img-circle img-thumbnail" alt="profile-image">
+                         <i class="mdi mdi-star-circle member-star text-success" title="verified user"></i>
+                        </div>
+                   
+                        <div class="">
+                         <h4 class="m-b-5">Mamata Banerjee</h4>
+                         <p class="text-danger"><i class="fa fa-thumbs-o-up"></i> {{ AITC }} Votes</p>
+                         <p class="text-mint"><span class="text-mint">All India Trinamool Congress</span></p>  
+                         <p> <span><span class="text-muted">Alliance: </span><span class="text-mint">Federal Front</span> </span></p>
+                        </div>
+                   
+                         <p><span style="font-family: &quot;Abhaya Libre&quot;, serif; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; text-align: center;">Ma Mati Manush</span><br></p>
+                       </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">	
+                                     
+                            <div class="text-center card-box">
+                             <div class="clearfix"></div>
+                             <div class="member-card">
+                              <div class="thumb-xl member-thumb m-b-10 center-block">
+                               <img src="{% static 'images/ysr.jpg' %}" class="img-circle img-thumbnail" alt="profile-image">
+                               <i class="mdi mdi-star-circle member-star text-success" title="verified user"></i>
+                              </div>
+                         
+                              <div class="">
+                               <h4 class="m-b-5">Y. S. Jaganmohan Reddy</h4>
+                               <p class="text-danger"><i class="fa fa-thumbs-o-up"></i> {{ YSR }} Votes</p>
+                               <p class="text-mint"><span class="text-mint">YSR Congress</span></p>  
+                               <p> <span><span class="text-muted">Alliance: </span><span class="text-mint">-</span> </span></p>
+                              </div>
+                         
+                               <p><span style="font-family: &quot;Abhaya Libre&quot;, serif; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; text-align: center;">Jai Jagan</span><br></p>
+                             </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-4">	
+                                     
+                               <div class="text-center card-box">
+                                <div class="clearfix"></div>
+                                <div class="member-card">
+                                 <div class="thumb-xl member-thumb m-b-10 center-block">
+                                  <img src="{% static 'images/shivsena.jpg' %}" class="img-circle img-thumbnail" alt="profile-image">
+                                  <i class="mdi mdi-star-circle member-star text-success" title="verified user"></i>
+                                 </div>
+                            
+                                 <div class="">
+                                  <h4 class="m-b-5">Uddhav Thackeray</h4>
+                                  <p class="text-danger"><i class="fa fa-thumbs-o-up"></i> {{ SHIVSENA }} Votes</p>
+                                  <p class="text-mint"><span class="text-mint">Shiv Sena</span></p>  
+                                  <p> <span><span class="text-muted">Alliance: </span><span class="text-mint">NDA</span> </span></p>
+                                 </div>
+                            
+                                  <p><span style="font-family: &quot;Abhaya Libre&quot;, serif; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; text-align: center;">Marathi manoos</span><br></p>
+                                </div>
+                               </div>
+                             </div>
+                   </div>
+                   <div class="row">
+               
+                        <div class="col-lg-4">	
+                                   
+                          <div class="text-center card-box">
+                           <div class="clearfix"></div>
+                           <div class="member-card">
+                            <div class="thumb-xl member-thumb m-b-10 center-block">
+                             <img src="{% static 'images/jdu.jpg' %}" class="img-circle img-thumbnail" alt="profile-image">
+                             <i class="mdi mdi-star-circle member-star text-success" title="verified user"></i>
+                            </div>
+                       
+                            <div class="">
+                             <h4 class="m-b-5">Nitish Kumar</h4>
+                             <p class="text-danger"><i class="fa fa-thumbs-o-up"></i> {{ JDU }} Votes</p>
+                             <p class="text-mint"><span class="text-mint">Janata Dal (United)</span></p>  
+                             <p> <span><span class="text-muted">Alliance: </span><span class="text-mint">NDA</span> </span></p>
+                            </div>
+                       
+                             <p><span style="font-family: &quot;Abhaya Libre&quot;, serif; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; text-align: center;">Jhaanse mein na aye, Nitish ko jitaye</span><br></p>
+                           </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4">	
+                                         
+                                <div class="text-center card-box">
+                                 <div class="clearfix"></div>
+                                 <div class="member-card">
+                                  <div class="thumb-xl member-thumb m-b-10 center-block">
+                                   <img src="{% static 'images/bjd.jpg' %}" class="img-circle img-thumbnail" alt="profile-image">
+                                   <i class="mdi mdi-star-circle member-star text-success" title="verified user"></i>
+                                  </div>
+                             
+                                  <div class="">
+                                   <h4 class="m-b-5">Naveen Patnaik</h4>
+                                   <p class="text-danger"><i class="fa fa-thumbs-o-up"></i> {{ BJD }} Votes</p>
+                                   <p class="text-mint"><span class="text-mint">Biju Janata Dal</span></p>  
+                                   <p> <span><span class="text-muted">Alliance: </span><span class="text-mint">-</span> </span></p>
+                                  </div>
+                             
+                                   <p><span style="font-family: &quot;Abhaya Libre&quot;, serif; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; text-align: center;">Naveen mo Parivaar, Sankha mo Chinna</span><br></p>
+                                 </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-4">	
+                                         
+                                   <div class="text-center card-box">
+                                    <div class="clearfix"></div>
+                                    <div class="member-card">
+                                     <div class="thumb-xl member-thumb m-b-10 center-block">
+                                      <img src="{% static 'images/bbsp.jpg' %}" class="img-circle img-thumbnail" alt="profile-image">
+                                      <i class="mdi mdi-star-circle member-star text-success" title="verified user"></i>
+                                     </div>
+                                
+                                     <div class="">
+                                      <h4 class="m-b-5">Mayawati</h4>
+                                      <p class="text-danger"><i class="fa fa-thumbs-o-up"></i> {{ BSP }} Votes</p>
+                                      <p class="text-mint"><span class="text-mint">Bahujan Samaj Party</span></p>  
+                                      <p> <span><span class="text-muted">Alliance: </span><span class="text-mint">MGB</span> </span></p>
+                                     </div>
+                                
+                                      <p><span style="font-family: &quot;Abhaya Libre&quot;, serif; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; text-align: center;">Jai Bheem, Jai Bharat</span><br></p>
+                                    </div>
+                                   </div>
+                                 </div>
+                       </div>
+                       <div class="row">
+                            <div class="col-lg-412">	
+                                         
+                                    <div class="text-center card-box">
+                                     <div class="clearfix"></div>
+                                     <div class="member-card">
+                                      <div class="thumb-xl member-thumb m-b-10 center-block">
+                                       <img src="{% static 'images/nota.png' %}" class="img-circle img-thumbnail" alt="profile-image">
+                                       <i class="mdi mdi-star-circle member-star text-success" title="verified user"></i>
+                                      </div>
+                                 
+                                      <div class="">
+                                       <h4 class="m-b-5">NONE OF THE ABOVE</h4>
+                                       <p class="text-danger"><i class="fa fa-thumbs-o-up"></i> {{ NOTA }} Votes</p>
+                                       <p class="text-mint"><span class="text-mint">Against All</span></p>  
+                                      </div>
+                                 
+                                       <p><span style="font-family: &quot;Abhaya Libre&quot;, serif; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; text-align: center;">I decide not to give my vote to any candidate.</span><br></p>
+                                     </div>
+                                    </div>
+                                  </div>
+                       </div>
+{%endblock%}

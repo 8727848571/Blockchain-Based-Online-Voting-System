@@ -1,0 +1,8 @@
+{% extends 'base.html' %} 
+{% block content %}
+<div class="section-title" style="padding-top: 20px;">
+        <h1>{{ error }}</h1>
+        <p> Block hash not matching for {{ culprit }} at Block {{ errblock }} </p>
+        <p style="color: red !important"> {{ detail }} </p>
+    </div>
+{% endblock %}
